@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/99/three.min.js" defer></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Film Blog</title>
+</head>
+<body>
+    <nav class="nav nav--left js-nav">
+        <ul>
+          <li>
+            <a href="#"><span>Serie Tv</span></a>
+          </li>
+          <li>
+            <a href="#"><span>Film</span></a>
+          </li>
+          <li>
+            <a href="#" class="is-active"><span>Collections</span></a>
+          </li>
+        </ul>
+      </nav>
+      
+      <figure class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
+      </figure>
+      
+      <nav class="nav nav--right">
+        <ul>
+          <li>
+            <a href="https://github.com/marcoperinidev" target="_blank"><span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            </span></a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Polpette</span>
+              <div class="cart-total">10</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div class="slider js-slider">
+        <div class="slider__inner js-slider__inner"></div>
+        
+        <div class="slide js-slide">
+          <div class="slide__content">
+            <figure class="slide__img js-slide__img">
+              <img src="https://resizing.flixster.com/Rsb6ahwgXd4yVSq4WvMVYyT1BpM=/fit-in/1152x864/v2/https://resizing.flixster.com/RJXjR5dCA-oj9vnTJPPgGgb19EU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjU1MDk2NS53ZWJw">
+            </figure>
+             <figure class="slide__img js-slide__img">
+              <img src="https://upload.wikimedia.org/wikipedia/fi/c/ca/Black_Mirror_tv-series_poster.jpg">
+            </figure>
+          </div>
+          
+          <div class="slider__text js-slider__text text">
+            <div class="slider__text-line js-slider__text-line"><div>Oscurità</div></div>
+            <div class="slider__text-line js-slider__text-line"><div>seriali:</div></div>
+            <div class="slider__text-line js-slider__text-line"><div>Mr.Robot</div></div>
+            <div class="slider__text-line js-slider__text-line"><div>Black Mirror</div></div>
+          </div>
+        </div>
+        
+        <div class="slide js-slide">
+          <div class="slide__content">
+            <figure class="slide__img js-slide__img">
+              <img src="https://resizing.flixster.com/R40zga8sG_n3gO88C_BIFAqAQZA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzliNDg4MzljLWRhZjEtNDU5OC04OWNjLTc5OTc0OTAwYTRkMy5qcGc=">
+            </figure>
+             <figure class="slide__img js-slide__img">
+              <img src="https://resizing.flixster.com/lcsCIhCq_SQv_OcCofy901xix_w=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdlNmY0MmEzLTM2NWUtNDhlYS1iNDcxLTc2NTUwN2EyMWNhMS5qcGc=">
+            </figure>
+          </div>
+          <div class="slider__text js-slider__text">
+            <div class="slider__text-line js-slider__text-line"><div>Ultimi</div></div>
+            <div class="slider__text-line js-slider__text-line"><div>Arrivati</div></div>
+          </div>
+        </div>
+        
+        <div class="slide js-slide">
+          <div class="slide__content">
+            <figure class="slide__img js-slide__img">
+              <img src="https://resizing.flixster.com/vxgRiNDhrMcoayIamM7RkOI0lGM=/fit-in/1152x864/v2/https://resizing.flixster.com/2TwYzc7hklVW2s4fN1ypuyYWMj0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYjBiZTZiODMtODQ1OC00MDY3LTkzNTItZjZlMzQ5ZGM1MzEwLmpwZw==">
+            </figure>
+             <figure class="slide__img js-slide__img">
+              <img src="https://www.themoviedb.org/t/p/original/dEnEkOthuu55AYeLBseEK1hcVkz.jpg">
+            </figure>
+          </div>
+          <div class="slider__text js-slider__text">
+            <div class="slider__text-line js-slider__text-line"><div>Serie Cult</div></div>
+            <div class="slider__text-line js-slider__text-line"><div>impredibili</div></div>
+          </div>
+        </div>
+        
+        <nav class="slider__nav js-slider__nav">
+          <div class="slider-bullet js-slider-bullet">
+            <span class="slider-bullet__text js-slider-bullet__text">01</span>
+            <span class="slider-bullet__line js-slider-bullet__line"></span>
+          </div>
+           <div class="slider-bullet js-slider-bullet">
+            <span class="slider-bullet__text js-slider-bullet__text">02</span>
+            <span class="slider-bullet__line js-slider-bullet__line"></span>
+          </div>
+           <div class="slider-bullet js-slider-bullet">
+            <span class="slider-bullet__text js-slider-bullet__text">03</span>
+            <span class="slider-bullet__line js-slider-bullet__line"></span>
+          </div>
+        </nav>
+        
+        <div class="scroll js-scroll">Scroll</div>
+        
+      </div>
+      
+      <div class="vert-text">
+        <span>
+          polpette<br>
+          polpette+polpette
+        </span>
+      </div>
+    
+</body>
+</html>
