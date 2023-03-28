@@ -1,24 +1,41 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Restaurant {
 
     private String name;
-    private Object PiattiCollection;
-    private Object BevandeCollection;
+    private List<Piatti> PiattiCollection;
+    private List<Bevande> BevandeCollection;
 
-    public Restaurant(String name, Object piattiCollection, Object bevandeCollection) {
+
+    public Restaurant(String name, String[] piatti, String[] bevande) {
         this.name = name;
-        PiattiCollection = piattiCollection;
-        BevandeCollection = bevandeCollection;
+        this.PiattiCollection = new ArrayList<>();
+        for (String p : piatti) {
+            this.PiattiCollection.add(new Piatti(p, 0, new String[]{}));
+        }
+        this.BevandeCollection = new ArrayList<>();
+        for (String b : bevande) {
+            this.BevandeCollection.add(new Bevande(b, 0));
+        }
     }
+
 
     public void stampamenu() {
-        System.out.println("Benvenuto al " + name);
+        System.out.println("Benvenuto al ristorante " + name);
         System.out.println("I nostri piatti sono:");
-        System.out.println(PiattiCollection);
+        for (Piatti p : PiattiCollection) {
+            System.out.println(p.getNome() + " - " + p.getPrezzo() + " euro");
+        }
         System.out.println("Le nostre bevande sono:");
-        System.out.println(BevandeCollection);
+        for (Bevande b : BevandeCollection) {
+            System.out.println(b.getNome() + " - " + b.getPrezzo() + " euro");
+        }
     }
+
+
+
+
 
     public String getName() {
         return name;
@@ -33,7 +50,7 @@ public class Restaurant {
     }
 
     public void setPiattiCollection(Object piattiCollection) {
-        PiattiCollection = piattiCollection;
+        PiattiCollection = (List<Piatti>) piattiCollection;
     }
 
     public Object getBevandeCollection() {
@@ -41,7 +58,7 @@ public class Restaurant {
     }
 
     public void setBevandeCollection(Object bevandeCollection) {
-        BevandeCollection = bevandeCollection;
+        BevandeCollection = (List<Bevande>) bevandeCollection;
     }
 
     public double getPrezzo() {
@@ -71,6 +88,11 @@ public class Restaurant {
     public void setNome(String nome) {
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
 
+
+    }
 
 }
