@@ -1,4 +1,10 @@
 /*
+
+--------------CONSEGNA-------------------
+creare una mappa con degli oggetti, chiedere all’utente
+di inserire una chiave e provare a cercare l’oggetto corrispondente nella mappa
+-----------------------------------------
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
