@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa943083-5af1-4d0d-a0b0-073aab763368" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/7.introJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IntroJava/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/AutomorphicNumber/AutomorphicNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/.idea/BMICalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/BMICalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/.idea/BMICalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/BMICalculator/out/production/BMICalculator/BMICalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/.idea/CheckNumberIsOddEven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/CheckNumberIsOddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/.idea/CheckNumberIsOddEven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/CheckNumberIsOddEven/out/production/CheckNumberIsOddEven/CheckNumberIsOddEven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/.idea/EvenArrayPosition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/EvenPositionOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/.idea/EvenArrayPosition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/EvenArrayPosition/out/production/EvenArrayPosition/EvenPositionOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/FizzBuzz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/out/production/FizzBuzz/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/FizzBuzz/FizzBuzz/src/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/MaxInArray/MaxInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Palindromo/Palindromo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswdValidatorTerminator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/PasswordValidatorTerminator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/out/production/PasswordValidatorTerminator/PasswordValidatorTerminator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/PasswdValidatorTerminator/PasswordValidatorTerminator/src/PasswordValidatorTerminator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Password/PasswordValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/ReverseDigits/ReverseDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/PasswordValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/PasswordValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/Scanner.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/PasswordValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Scanner/out/production/Scanner/Scanner.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/.idea/Sommatoria.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/Sommatoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/Sommatoria/Sommatoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/SumOfArray/SumOfArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java-esercizi-fundamentals/SumOfDigits/SumOfDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/ATMMachine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/out/production/ATMMachine/ATMMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATMMachine/src/ATMMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/.idea/Developer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/John.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/.idea/Developer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/Developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Developer/out/production/Developer/John.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/Game2D.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/out/production/Game2D/main/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/out/production/Game2D/main/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/out/production/Game2D/main/GameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/out/production/Game2D/main/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/src/main/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/src/main/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/src/main/GameWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game2D/src/main/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java-esercizi-oop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/Restaurant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/Bevande.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/Piatti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/Restaurant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/Bevande.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/Piatti.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restaurant/out/production/Restaurant/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaCodewars/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaCodewars/ProvaIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaCodewars/ShorterSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaCodewars/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/01.collection_intro/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/02.collection_linkedList/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/03.collection_set/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/04.collection_set_equality/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/05.collection_set_mutable/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/bin/Pointer3DComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/06.collection_treeset/src/Pointer3DComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/07.map/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezione-collection/08.map_object_key/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/01.oop/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/02.oop/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/03.oop/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/04.oop-reference/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/05.sideEffects/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/06.object-equality/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/07.boxing-unboxing/src/Pointer3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/bin/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/bin/Pointer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/src/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lezioni-oop/08.incapsulamento/src/Pointer3D.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2NgohiZ6JqksP6xWPgyzQkoShtU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/iamroot/Desktop/code/java-aulab-course/2.Java-ESERCIZI-collection",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\iamroot\Desktop\code\java-aulab-course" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa943083-5af1-4d0d-a0b0-073aab763368" name="Changes" comment="" />
+      <created>1680095210946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680095210946</updated>
+    </task>
+    <servers />
+  </component>
+</project>
