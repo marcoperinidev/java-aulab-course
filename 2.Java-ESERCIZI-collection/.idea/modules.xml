@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2.Java-ESERCIZI-collection.iml" filepath="$PROJECT_DIR$/.idea/2.Java-ESERCIZI-collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListaClasse/ListaClasse.iml" filepath="$PROJECT_DIR$/ListaClasse/ListaClasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapWithoutDuplicates/MapWithoutDuplicates.iml" filepath="$PROJECT_DIR$/MapWithoutDuplicates/MapWithoutDuplicates.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mappa/Mappa.iml" filepath="$PROJECT_DIR$/Mappa/Mappa.iml" />
       <module fileurl="file://$PROJECT_DIR$/MappaKeyString/MappaKeyString.iml" filepath="$PROJECT_DIR$/MappaKeyString/MappaKeyString.iml" />
       <module fileurl="file://$PROJECT_DIR$/UpdateIndexBased/UpdateIndexBased.iml" filepath="$PROJECT_DIR$/UpdateIndexBased/UpdateIndexBased.iml" />
