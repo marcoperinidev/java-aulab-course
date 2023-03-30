@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.List;
 
 public class Piatti {
@@ -7,10 +6,10 @@ public class Piatti {
     private double prezzo;
     private List<String> ingredienti;
 
-    public Piatti(String nome, double prezzo, String[] ingredienti) {
+    public Piatti(String nome, double prezzo, List<String> ingredienti) {
         this.nome = nome;
         this.prezzo = prezzo;
-        this.ingredienti = Arrays.asList(ingredienti);
+        this.ingredienti = ingredienti;
     }
 
     public String getNome() {
@@ -44,4 +43,10 @@ public class Piatti {
     public Object getPrice() {
         return null;
     }
+
+    public void add(Piatti piatto) {
+
+    }
+
+
 }
