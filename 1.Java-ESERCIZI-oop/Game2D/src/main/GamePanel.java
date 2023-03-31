@@ -15,7 +15,7 @@ public class GamePanel extends JPanel {
     private MouseInputs mouseInputs;
     private int xDelta = 100, yDelta = 100;
     //va fuori dal GamePanel() sennò non si può usare nei metodi
-    private BufferedImage img;
+    private BufferedImage img, subImg;
 
     public GamePanel() {
         
@@ -28,7 +28,7 @@ public class GamePanel extends JPanel {
         addMouseListener(mouseInputs);//lo posso passare uguale a tutte e due i Listener perché MouseInputs implementa entrambe le interfacce
         addMouseMotionListener(mouseInputs);
     }
-
+        //IMPORT IMAGE
     private void importImage() {
         InputStream is = getClass().getResourceAsStream("/player_sprites.png");
 
@@ -67,7 +67,8 @@ public class GamePanel extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        g.drawImage(img, 0, 0, null);
+        subImg = img.getSubimage(1*64, 8*40, 64, 40);
+        g.drawImage(subImg, xDelta, yDelta, 128, 80, null);
     }
 }
 
