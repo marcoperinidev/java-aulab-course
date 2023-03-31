@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
 
         //crea un array di Integer e lo passso al costruttore di ArrayFilter
