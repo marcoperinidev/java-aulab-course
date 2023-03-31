@@ -34,6 +34,7 @@ public class GamePanel extends JPanel {
 
         //try catch per gestire l'eccezione è tipo un IF più forte per gestire l'import ed errori
         try {
+            assert is != null;
             img = ImageIO.read(is);
         } catch (IOException e) {
             throw new RuntimeException(e);
