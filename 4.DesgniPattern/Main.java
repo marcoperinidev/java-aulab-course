@@ -20,6 +20,12 @@ public class Main {
         System.out.println("Indirizzo del server: " + serverAddress);
         System.out.println("Porta del server: " + serverPort);
 
+        //la galina coccodè 1
+        Product product1 = ProductFactory.createProduct("product1");
+        product1.use();
+        //la galina cocodé 2
+        Product product2 = ProductFactory.createProduct("product2");
+        product2.use();
 
     }
 }
