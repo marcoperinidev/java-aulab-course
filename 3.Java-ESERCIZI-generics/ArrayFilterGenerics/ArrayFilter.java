@@ -54,4 +54,16 @@ public class ArrayFilter<T extends Number> { //estende la classe Number per pote
         return true;
     }
 
+    /*public boolean isPrime2(int n){
+        return n > 1 && IntStream.range(2, n).noneMatch(index -> n % index == 0);
+    }*/
+
+    /*public boolean isPrime3(Integer num){
+        for (int i = 2; i < num; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+    }*/
+
 }

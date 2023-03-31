@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ATMMachine/ATMMachine.iml" filepath="$PROJECT_DIR$/ATMMachine/ATMMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncryptorDecriyptor/EncryptorDecriyptor.iml" filepath="$PROJECT_DIR$/EncryptorDecriyptor/EncryptorDecriyptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-esercizi-oop.iml" filepath="$PROJECT_DIR$/Java-esercizi-oop.iml" />
     </modules>
   </component>
