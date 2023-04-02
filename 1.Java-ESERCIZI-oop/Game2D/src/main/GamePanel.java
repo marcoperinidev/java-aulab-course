@@ -15,11 +15,14 @@ public class GamePanel extends JPanel {
     private MouseInputs mouseInputs;
     private int xDelta = 100, yDelta = 100;
     //va fuori dal GamePanel() sennò non si può usare nei metodi
-    private BufferedImage img, subImg;
+    private BufferedImage img;
+    private BufferedImage[][] animations; //array per l'animazione
+    private int animationTick, animationIndex, animationSpeed = 15;
 
     public GamePanel() {
         
         importImage();
+        loadAnimations();
         
         //inizializzo la classe MouseInputs
         mouseInputs = new MouseInputs(this);
@@ -28,7 +31,18 @@ public class GamePanel extends JPanel {
         addMouseListener(mouseInputs);//lo posso passare uguale a tutte e due i Listener perché MouseInputs implementa entrambe le interfacce
         addMouseMotionListener(mouseInputs);
     }
-        //IMPORT IMAGE
+
+    //load array per l'animazione
+    private void loadAnimations() {
+        animations = new BufferedImage[9][6];
+
+        for (int j = 0; j < animations.length; j++)
+            for (int i = 0; i < animations[j].length; i++)
+                animations[j][i] = img.getSubimage(i * 64, j*40, 64, 40);
+
+    }
+
+    //IMPORT IMAGE
     private void importImage() {
         InputStream is = getClass().getResourceAsStream("/player_sprites.png");
 
@@ -64,11 +78,23 @@ public class GamePanel extends JPanel {
         repaint();
     }
 
+    private void updateAnimationTick() {
+        animationTick++;
+        if (animationTick >= animationSpeed) {
+            animationTick = 0;
+            animationIndex++;
+            if (animationIndex >= 6) {
+                animationIndex = 0;
+            }
+        }
+    }
+
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-
-        subImg = img.getSubimage(1*64, 8*40, 64, 40);
-        g.drawImage(subImg, xDelta, yDelta, 128, 80, null);
+        
+        updateAnimationTick();
+       g.drawImage(animations[1][animationIndex], xDelta, yDelta, 128, 80, null);
     }
+
 }
 
