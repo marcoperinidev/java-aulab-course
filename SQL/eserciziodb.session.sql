@@ -74,3 +74,14 @@
 --    FOREIGN KEY (user_id) REFERENCES users(id),
 --    FOREIGN KEY (like_id) REFERENCES likes(id)
 -- );
+
+SELECT *
+FROM users
+INNER JOIN posts ON users.id = posts.user_id;
+
+
+-- SELECT users.name, posts.title, posts.body
+-- FROM users
+-- JOIN posts ON users.id = posts.user_id;
+
+
