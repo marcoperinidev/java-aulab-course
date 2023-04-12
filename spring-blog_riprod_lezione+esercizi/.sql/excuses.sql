@@ -1,0 +1,1 @@
+sql lo faccio su MySQL Workbench e poi lo eseguo da terminale con il comando mysql -u root -p < excuses.sql
