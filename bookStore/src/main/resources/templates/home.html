@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns:th="https://www.thymeleaf.com" >
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,29 +18,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    <a aria-current="page" class="nav-link active text-white" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Available Books</a>
+                    <a class="nav-link text-white" href="available_books">Available Books</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">My Books</a>
                 </li>
             </ul>
             <div>
-                <a class="nav-link text-white" href="/book_register">New Book Register</a>
+                <a class="nav-link text-white" href="book_register">New Book Register</a>
             </div>
         </div>
     </div>
 </nav>
 
-    <div class="container text-center my-5">
-        <h1>Welcome to This New Book Store</h1>
-        <h6> This is a simple book store where you can find all the books you want.
-            <br>
-            You can also register your own books and share them with the community.
-        </h6>
-        <img src="img/croppedBookStoreBG.png" alt="logo"/>
+<div class="container text-center my-5">
+    <h1>Welcome to This New Book Store</h1>
+    <h6> This is a simple book store where you can find all the books you want.
+        <br>
+        You can also register your own books and share them with the community.
+    </h6>
+    <img alt="book store" class="px-3" src="../static/img/bookStore.png" width="690">
+</div>
     </div>
 
 <!--FINE NAVBAR-->
