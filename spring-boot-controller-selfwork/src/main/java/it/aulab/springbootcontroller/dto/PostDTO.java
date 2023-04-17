@@ -39,4 +39,16 @@ public class PostDTO {
     public void setAuthorEmail(String authorEmail) {
         this.authorEmail = authorEmail;
     }
+    public String setPublishDate(String publishDate) {
+            return publishDate;
+    }
+    public String setAuthorFullName(String string) {
+        return string;
+    }
+    public String setBodyLength(int length) {
+        return authorEmail;
+    }
+    public String setNumberOfComments(Object countByPostId) {
+        return authorEmail;
+    }
 }

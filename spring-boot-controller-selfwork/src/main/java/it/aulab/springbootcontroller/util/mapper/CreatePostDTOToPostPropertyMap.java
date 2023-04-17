@@ -10,7 +10,8 @@ public class CreatePostDTOToPostPropertyMap extends PropertyMap<CreatePostDTO, P
     @Override
     protected void configure() {
         map().setId(null);
-        map().getAuthor().setId(source.getAuthorId());
+        // map().getAuthor().setId(source.getAuthorId());
+        map(source.getAuthorId()).getAuthor().setId(null);
     }
 
 }

@@ -18,7 +18,7 @@ import it.aulab.springbootcontroller.repository.CommentRepository;
 import mapper.CommentMapper;
 
 @Service
-public class CommentServiceImpl implements CompletionService {
+public class CommentServiceImpl<CommentDTO, CommentMapper> implements CompletionService {
 
     @Autowired
     private CommentRepository commentRepository;
@@ -37,7 +37,7 @@ public class CommentServiceImpl implements CompletionService {
     }
 
     @Override
-    public CommentDTO getCommentById(Long id) {
+    public static CommentDTO getCommentById(Long id) {
         Optional<Comment> comment = commentRepository.findById(id);
         if (!comment.isPresent()) {
             throw new ResourceNotFoundException("Comment not found with id: " + id);
@@ -73,33 +73,5 @@ public class CommentServiceImpl implements CompletionService {
         commentRepository.deleteById(id);
     }
 
-    @Override
-    public Future poll() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'poll'");
-    }
 
-    @Override
-    public Future poll(long arg0, TimeUnit arg1) throws InterruptedException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'poll'");
-    }
-
-    @Override
-    public Future submit(Callable arg0) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'submit'");
-    }
-
-    @Override
-    public Future submit(Runnable arg0, Object arg1) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'submit'");
-    }
-
-    @Override
-    public Future take() throws InterruptedException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'take'");
-    }
 }

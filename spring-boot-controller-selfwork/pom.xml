@@ -25,6 +25,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -47,25 +51,7 @@
 			<artifactId>modelmapper</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-	
-   <dependency>
-     <groupId>org.apache.velocity</groupId>
-     <artifactId>velocity</artifactId>
-     <version>1.7</version>
-   </dependency>
- 
-   <dependency>
-     <groupId>org.wso2.carbon.apimgt</groupId>
-     <artifactId>org.wso2.carbon.apimgt.rest.api.publisher.v1.common</artifactId>
-     <version>9.28.128</version>
-   </dependency>
- 
-   <dependency>
-     <groupId>org.kie.kogito.examples</groupId>
-     <artifactId>flexible-process-quarkus</artifactId>
-     <version>1.24.1.Final</version>
-   </dependency>
- </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>

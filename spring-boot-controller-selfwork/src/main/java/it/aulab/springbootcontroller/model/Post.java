@@ -27,7 +27,7 @@ public class Post {
 
     @Column(length = 1000, nullable = false)
     private String body;
-
+    
     @Column(name = "publish_date", length = 8)
     private String publishDate;
 
@@ -51,7 +51,7 @@ public class Post {
     public Post() {
     }
 
-    public Post getId() {
+    public Long getId() {
         return id;
     }
 
@@ -90,5 +90,5 @@ public class Post {
     public void setAuthor(Author author) {
         this.author = author;
     }
-
+    
 }

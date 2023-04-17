@@ -22,10 +22,10 @@ public class Comment {
 
     @Column(length = 200, nullable = false)
     private String body;
-
+    
     @Column(name = "date", length = 8)
     private String publishDate;
-
+    
     @JsonIgnoreProperties({ "comments" })
     @ManyToOne
     private Post post;
@@ -69,14 +69,7 @@ public class Comment {
         return post;
     }
 
-    public void setPost(Post long1) {
-        this.post = long1;
-    }
-
-    public Object getText() {
-        return null;
-    }
-
-    public void setText(Object text) {
+    public void setPost(Post post) {
+        this.post = post;
     }
 }

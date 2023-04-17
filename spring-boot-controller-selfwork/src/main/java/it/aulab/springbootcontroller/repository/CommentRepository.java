@@ -17,6 +17,10 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
     @Modifying
     @Query("DELETE FROM Comment c WHERE c.email LIKE 'mirko%'")
     void deleteMirko();
+
+    static Object countByPostId(Long id) {
+        return null;
+    }
     
 
 }

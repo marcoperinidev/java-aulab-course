@@ -2,18 +2,16 @@ package it.aulab.springbootcontroller.controller;
 
 import java.util.List;
 
-import org.kie.kogito.flexible.example.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.wso2.carbon.apimgt.rest.api.publisher.v1.dto.CommentDTO;
-import com.github.javaparser.ast.comments.Comment;
+import it.aulab.springbootcontroller.service.CommentServiceImpl;
 
 @Controller
 @RequestMapping(value = "/comments")
-public class CommentController {
+public class CommentController<CommentDTO, CommentService, ResourceNotFoundException> {
 
     @Autowired
     private CommentService commentService;
@@ -25,7 +23,7 @@ public class CommentController {
 
     @GetMapping("/{id}")
     public ResponseEntity<CommentDTO> getCommentById(@PathVariable Long id) {
-        Comment comment = commentServiceImpl.getCommentById(id); // come esempio, assumiamo che il metodo per recuperare
+        CommentDTO comment = CommentServiceImpl.getCommentById(id); // come esempio, assumiamo che il metodo per recuperare
                                                                  // il commento dalla classe CommentServiceImpl sia
                                                                  // getCommentById()
         CommentDTO commentDTO = commentMapper.toDto(comment);

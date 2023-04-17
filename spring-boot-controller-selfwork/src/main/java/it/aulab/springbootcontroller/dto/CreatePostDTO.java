@@ -5,6 +5,7 @@ public class CreatePostDTO {
     private String body;
     private String publishDate;
     private Long authorId;
+    
     public CreatePostDTO() {
     }
     public String getTitle() {
