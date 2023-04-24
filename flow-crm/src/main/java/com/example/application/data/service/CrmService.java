@@ -51,7 +51,7 @@ public class CrmService {
         contactRepository.save(contact);
     }
 
-    public List<Company> findAllCompany(){
+    public List<Company> findAllCompanies(){
         return companyRepository.findAll();
     }
 

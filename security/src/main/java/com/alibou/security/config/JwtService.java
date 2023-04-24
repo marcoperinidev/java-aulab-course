@@ -5,6 +5,10 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+/*
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+*/
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -17,10 +21,15 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    private static final String SECRET_KEY = "33743677397A24432646294A404E635166546A576E5A7234753778214125442A"; //generated externally; can move to appplication properties
+    /*
+    @Autowired
+    private Environment env;
+    */
+    private static final String SECRET_KEY = "33743677397A24432646294A404E635166546A576E5A7234753778214125442A"/*env.getProperty(security.key)*/;
+                                                //generated externally; can move to appplication properties
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);//the Subject should be the usrname or usremail/the subj of the token
-    }
+    } // attributo statico ::
 
 //  EXTRACT THE TOKEN
 
@@ -28,16 +37,16 @@ public class JwtService {
         final Claims claims = extractAllClaims(token); //extract all claims from my token
         return claimsResolver.apply(claims); //I want to return the function which I pass as a parameter and apply all the claims that we have
     }
-//    GENERATE THE TOKEN
+//    GENERATE THE TOKEN (OVERLOAD)
 
     public String generateToken(UserDetails userDetails) { //this is for generate without extraclaims or directly from userDetails
-        return generateToken(new HashMap<>(), userDetails);
+        return generateToken(new HashMap<>()/*hashmap vuota*/, userDetails);
     }
 
     public String generateToken(
-            Map<String, Object> extraClaims, //this is if I want to pass extra info to store within my token
-            UserDetails userDetails
-    ){
+            Map<String, Object> extraClaims, //this is if I want to pass extra info to store within my token -- aram formali
+            UserDetails userDetails)
+    {
         return Jwts
                 .builder()
                 .setClaims(extraClaims)

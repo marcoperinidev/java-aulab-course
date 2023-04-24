@@ -13,7 +13,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
 @PageTitle("Contacts | Vaadin CRM")
-@Route(value = "")
+@Route(value = "", layout = MainLayout.class)
 public class ListView extends VerticalLayout {
 
     Grid<Contact> grid = new Grid<>(Contact.class);
@@ -59,7 +59,7 @@ public class ListView extends VerticalLayout {
     }
 
     private void configureForm() {
-        form = new ContactForm(service.findAllCompany(), service.findAllStatus());
+        form = new ContactForm(service.findAllCompanies(), service.findAllStatus());
         form.setWidth("25em");
         
         form.addSaveListener(ContactForm.SaveEvent.class, this::saveContact);
@@ -83,7 +83,7 @@ public class ListView extends VerticalLayout {
         filterText.setPlaceholder("Filter by name...");
         filterText.setClearButtonVisible(true);
         filterText.setValueChangeMode(ValueChangeMode.LAZY);//only update list when user stops typing not triggering the db evry time the user types a letter
-        filterText.addValueChangeListener(e -> updateList());//wait for stop typin befor fetching data
+        filterText.addValueChangeListener(e -> updateList());//wait for stop typin before fetching data
 
         Button addContactButton = new Button("Add Contact");
         addContactButton.addClickListener(click -> addContact());
@@ -101,7 +101,7 @@ public class ListView extends VerticalLayout {
     private void configureGrid() {
         grid.addClassName("contact-grid");
         grid.setSizeFull();
-        grid.setColumns("firstName", "lastName", "email");//by defoult show all columns
+        grid.setColumns("firstName", "lastName", "email");//by default show all columns
         grid.addColumn(contact -> contact.getStatus().getName()).setHeader("Status");//add a column for status name
         grid.addColumn(contact -> contact.getCompany().getName()).setHeader("Company");//add a column for company name
         grid.getColumns().forEach(col -> col.setAutoWidth(true));//make columns as wide as their content
