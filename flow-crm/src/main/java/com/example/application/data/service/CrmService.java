@@ -10,27 +10,26 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service 
 public class CrmService {
 
     private final ContactRepository contactRepository;
     private final CompanyRepository companyRepository;
     private final StatusRepository statusRepository;
 
-
     public CrmService(ContactRepository contactRepository,
                       CompanyRepository companyRepository,
-                      StatusRepository statusRepository) {
+                      StatusRepository statusRepository) { 
         this.contactRepository = contactRepository;
         this.companyRepository = companyRepository;
         this.statusRepository = statusRepository;
     }
 
-    public List<Contact> findAllContacts(String filterText) {
-        if (filterText == null || filterText.isEmpty()) {
+    public List<Contact> findAllContacts(String stringFilter) {
+        if (stringFilter == null || stringFilter.isEmpty()) { 
             return contactRepository.findAll();
         } else {
-            return contactRepository.search(filterText);
+            return contactRepository.search(stringFilter);
         }
     }
 
@@ -43,20 +42,18 @@ public class CrmService {
     }
 
     public void saveContact(Contact contact) {
-        if (contact == null) {
-            System.err.println("Contact Null");
+        if (contact == null) { 
+            System.err.println("Contact is null. Are you sure you have connected your form to the application?");
+            return;
         }
-
-        /*assert contact != null;*/
         contactRepository.save(contact);
     }
 
-    public List<Company> findAllCompanies(){
+    public List<Company> findAllCompanies() {
         return companyRepository.findAll();
     }
 
-
-    public List<Status> findAllStatus(){
+    public List<Status> findAllStatuses(){
         return statusRepository.findAll();
     }
 }

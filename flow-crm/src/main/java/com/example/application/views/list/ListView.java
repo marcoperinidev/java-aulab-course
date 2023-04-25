@@ -2,6 +2,7 @@ package com.example.application.views.list;
 
 import com.example.application.data.entity.Contact;
 import com.example.application.data.service.CrmService;
+import com.example.application.views.MainLayout;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
@@ -11,60 +12,48 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
+import com.vaadin.flow.spring.annotation.SpringComponent;
+import jakarta.annotation.security.PermitAll;
+import org.springframework.context.annotation.Scope;
 
-@PageTitle("Contacts | Vaadin CRM")
+@SpringComponent
+@Scope("prototype")
+@PermitAll
 @Route(value = "", layout = MainLayout.class)
+@PageTitle("Contacts | Management CRM")
 public class ListView extends VerticalLayout {
-
     Grid<Contact> grid = new Grid<>(Contact.class);
     TextField filterText = new TextField();
     ContactForm form;
-    private CrmService service;
+    CrmService service;
 
     public ListView(CrmService service) {
         this.service = service;
         addClassName("list-view");
-        setSizeFull();//make entire view same size as browser window(default with VerticalLayout is as tall as the components inside of it)
-
+        setSizeFull();
         configureGrid();
         configureForm();
 
-        add(
-                getToolbar(),
-                getContent()
-            );
-
+        add(getToolbar(), getContent());
         updateList();
         closeEditor();
     }
 
-    private void closeEditor() {
-        form.setContact(null);
-        form.setVisible(false);
-        removeClassName("editing");
-    }
-
-    private void updateList() {
-        grid.setItems(service.findAllContacts(filterText.getValue()));
-    }
-
-    private Component getContent() {
+    private HorizontalLayout getContent() {
         HorizontalLayout content = new HorizontalLayout(grid, form);
         content.setFlexGrow(2, grid);
         content.setFlexGrow(1, form);
-        content.addClassName("content");
+        content.addClassNames("content");
         content.setSizeFull();
-
         return content;
     }
 
     private void configureForm() {
-        form = new ContactForm(service.findAllCompanies(), service.findAllStatus());
+        form = new ContactForm(service.findAllCompanies(), service.findAllStatuses());
         form.setWidth("25em");
-        
-        form.addSaveListener(ContactForm.SaveEvent.class, this::saveContact);
-        form.addDeleteListener(ContactForm.DeleteEvent.class, this::deleteContact);
-        form.addCloseListener(ContactForm.CloseEvent.class, e -> closeEditor());
+        form.addSaveListener(this::saveContact); // <1>
+        form.addDeleteListener(this::deleteContact); // <2>
+        form.addCloseListener(e -> closeEditor()); // <3>
     }
 
     private void saveContact(ContactForm.SaveEvent event) {
@@ -79,38 +68,34 @@ public class ListView extends VerticalLayout {
         closeEditor();
     }
 
+    private void configureGrid() {
+        grid.addClassNames("contact-grid");
+        grid.setSizeFull();
+        grid.setColumns("firstName", "lastName", "email");
+        grid.addColumn(contact -> contact.getStatus().getName()).setHeader("Status");
+        grid.addColumn(contact -> contact.getCompany().getName()).setHeader("Company");
+        grid.getColumns().forEach(col -> col.setAutoWidth(true));
+
+        grid.asSingleSelect().addValueChangeListener(event ->
+                editContact(event.getValue()));
+    }
+
     private Component getToolbar() {
         filterText.setPlaceholder("Filter by name...");
         filterText.setClearButtonVisible(true);
-        filterText.setValueChangeMode(ValueChangeMode.LAZY);//only update list when user stops typing not triggering the db evry time the user types a letter
-        filterText.addValueChangeListener(e -> updateList());//wait for stop typin before fetching data
+        filterText.setValueChangeMode(ValueChangeMode.LAZY);
+        filterText.addValueChangeListener(e -> updateList());
 
-        Button addContactButton = new Button("Add Contact");
+        Button addContactButton = new Button("Add contact");
         addContactButton.addClickListener(click -> addContact());
 
-        HorizontalLayout toolbar = new HorizontalLayout(filterText, addContactButton);
+        var toolbar = new HorizontalLayout(filterText, addContactButton);
         toolbar.addClassName("toolbar");
         return toolbar;
     }
 
-    private void addContact() {
-        grid.asSingleSelect().clear();//when we create a new contact we want to clear the selection for not having a contact selected
-        editContact(new Contact()); //create a new contact and pass it to the form
-    }
-
-    private void configureGrid() {
-        grid.addClassName("contact-grid");
-        grid.setSizeFull();
-        grid.setColumns("firstName", "lastName", "email");//by default show all columns
-        grid.addColumn(contact -> contact.getStatus().getName()).setHeader("Status");//add a column for status name
-        grid.addColumn(contact -> contact.getCompany().getName()).setHeader("Company");//add a column for company name
-        grid.getColumns().forEach(col -> col.setAutoWidth(true));//make columns as wide as their content
-
-        grid.asSingleSelect().addValueChangeListener(e -> editContact(e.getValue()));
-    }
-
-    private void editContact(Contact contact) {
-        if(contact == null){
+    public void editContact(Contact contact) {
+        if (contact == null) {
             closeEditor();
         } else {
             form.setContact(contact);
@@ -119,4 +104,19 @@ public class ListView extends VerticalLayout {
         }
     }
 
+    private void closeEditor() {
+        form.setContact(null);
+        form.setVisible(false);
+        removeClassName("editing");
+    }
+
+    private void addContact() {
+        grid.asSingleSelect().clear();
+        editContact(new Contact());
+    }
+
+
+    private void updateList() {
+        grid.setItems(service.findAllContacts(filterText.getValue()));
+    }
 }
